@@ -2,9 +2,9 @@
 /**
  * main - show me the money
  *
- * Return: the way i like
+ * Return: (0)
  */
-int main()
+int main(void)
 {
 printf("Size of a char: %lu byte(s)", sizeof(char));
 printf("Size of an int: %lu byte(s)", sizeof(int));
