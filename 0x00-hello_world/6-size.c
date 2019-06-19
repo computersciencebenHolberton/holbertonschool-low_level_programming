@@ -4,7 +4,7 @@
  *
  * Return: the way i like
  */
-int main(void)
+int main()
 {
 printf("Size of a char: %lu byte(s)", sizeof(char));
 printf("Size of an int: %lu byte(s)", sizeof(int));
