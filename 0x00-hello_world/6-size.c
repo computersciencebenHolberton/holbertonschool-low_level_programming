@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * number 6
  *
@@ -10,11 +9,11 @@ int main(void)
 
 {
   
-  printf("Size of char: %c", sizeof(char));
-  printf("Size an  int: %d", sizeof(int));
-  printf("Size of a long int: %li", sizeof(long int));
-  printf("Size of a long long int: %lli", sizeof(long long int));
-  printf("Size of a float: %f", sizeof(float));
+printf("Size of char: %lu", sizeof(char));
+printf("Size an  int: %lu", sizeof(int));
+printf("Size of a long int: %lu", sizeof(long int));
+printf("Size of a long long int: %lu", sizeof(long long int));
+printf("Size of a float: %lu", sizeof(float));
 
-  return 0;
+return (0);
 }
