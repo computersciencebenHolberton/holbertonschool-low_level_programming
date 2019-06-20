@@ -2,11 +2,13 @@
 /**
  * main - what is this
  *
- * Return: Always 0
+ * Return: Always
  */
 int main(void)
 {
-char n = {a..z};
-putchar("\n", n);
+char n;
+for (n = 'a'; n <= 'z'; n++)
+putchar(n);
+putchar('\n');
 return (0);
 }
