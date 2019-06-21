@@ -1,6 +1,6 @@
 #include <stdio.h>
  /**
- * main - number 4
+ * main - this the way
  *
  * Return: Always 0
  */
