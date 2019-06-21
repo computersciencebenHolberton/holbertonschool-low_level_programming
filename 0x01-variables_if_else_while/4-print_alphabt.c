@@ -1,6 +1,6 @@
 #include <stdio.h>
  /**
- * main - this is what the
+ * main - take the q away
  *
  * Return: Always 0
  */
