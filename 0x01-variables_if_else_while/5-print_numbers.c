@@ -4,13 +4,17 @@
  *
  * Return: Always 0
  */
-int main()
+int main(void)
 {
-      int n;
-      for (n = 0; n <= 9; n++)
-        {
+	int n;
+	for ( n = 0; n <= 9; n++)
+{
+{
 	printf("/n");
+{
+{
 	printf("%d", n);
-	}
-      return (0);
+}
+}
+return (0);
 }
