@@ -5,10 +5,11 @@
  * Return: Always 0
  */
 int main(void)
+	int i;
 {
-for(int n = 0; n < 9; n++)
-        {
-		putchar((n % 10)+'0');
-        }
+	for (int i = 0; i < 10; i++)
+{
+	putchar((i % 10)+'0');
+}
 return (0);
 }
