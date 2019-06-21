@@ -6,15 +6,7 @@
  */
 int main(void)
 {
-	int n;
-	for ( n = 0; n <= 9; n++)
-{
-{
-	printf("/n");
-{
-{
-	printf("%d", n);
-}
-}
+
+	printf("0123456789\n", n);
 return (0);
 }
