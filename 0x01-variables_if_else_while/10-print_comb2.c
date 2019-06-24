@@ -1,0 +1,25 @@
+#include <stdio.h>
+/**
+ * main - getting to know you
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	int i;
+	int m;
+
+	for (i = '0'; i <= '9'; i++)
+	for (m = '0'; m <= '9'; m++)
+	{
+		if (i != '0' || m != '0')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		putchar(i);
+		putchar(m);
+	}
+	putchar('\n');
+	return (0);
+}
