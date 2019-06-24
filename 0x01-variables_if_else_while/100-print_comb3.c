@@ -1,24 +1,28 @@
 #include <stdio.h>
 /**
- * main - the challenge on 11
+ * main - the way you do 11
  *
  * Return: Always 0
  */
 int main(void)
 {
 	int i;
-	int m;
-	int n;
-	for (i = '0'; i <= '8'; i++)
-		for (m = '1'; m <= '9'; m++)
+        int m;
+        
+        for (i = '0'; i <= '8'; i++)
+	for (m = '1'; m <= '9'; m++)
 		{
+			if ( i < m )
 			{
-			putchar(',');
-			putchar(' ');
+				if (i != '0' || m != '1')
+				{
+					putchar(',');
+					putchar(' ');
+				}
+				putchar(i);
+				putchar(m);
+			}
 		}
-	putchar(i);
-	putchar(m);
-		}
-	putchar('\n')
-	return (0);
+        putchar('\n');
+        return (0);
 }
