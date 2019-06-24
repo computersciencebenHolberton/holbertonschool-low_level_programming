@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int i;
-        int m;
-        
-        for (i = '0'; i <= '8'; i++)
+int i;
+int m;
+
+for (i = '0'; i <= '8'; i++)
 	for (m = '1'; m <= '9'; m++)
 		{
-			if ( i < m )
+			if (i < m)
 			{
 				if (i != '0' || m != '1')
 				{
@@ -23,6 +23,6 @@ int main(void)
 				putchar(m);
 			}
 		}
-        putchar('\n');
-        return (0);
+putchar('\n');
+return (0);
 }
