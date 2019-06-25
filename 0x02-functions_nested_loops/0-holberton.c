@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <_putchar.h>
 /**
  * main - its the 0x02-function
  *
