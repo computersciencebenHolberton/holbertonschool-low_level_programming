@@ -7,8 +7,15 @@
  */
 int _islower(int c)
 {
-	int c;
-	c = _islower('c');
-		_putchar(c);
-		return (0);
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i == c)
+		{
+			
+		}
+	}
+	_putchar(c);
+	return (0);
 }
