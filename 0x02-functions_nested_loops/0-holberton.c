@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - its the 0x02-function
  *
