@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * main - its the 0x02-function
  *
@@ -7,7 +6,6 @@
  */
 int main(void)
 {
-
 	_putchar('H');
 	_putchar('o');
 	_putchar('l');
