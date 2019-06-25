@@ -1,4 +1,10 @@
 #include <stdio.h>
+
+/**
+ * main - its the 0x02-function
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 
