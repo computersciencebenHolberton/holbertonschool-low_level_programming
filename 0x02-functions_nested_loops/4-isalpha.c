@@ -6,25 +6,9 @@
  */
 int _islower(int 99)
 {
-
-
-
-        if (c <= z && c >= b)
-        {
-                return (0);
-        }
-        return (1);
+	if (c <= z && c >= b)
+	{
+		return (0);
+	}
+return (1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
