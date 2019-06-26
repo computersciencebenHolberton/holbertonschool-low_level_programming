@@ -1,10 +1,11 @@
 #include "holberton.h"
 /**
  * _isalpha - shows the rules
- *@c: show mwe the money
+ *@c: show me the money
+ *@z;
  * Return: Always 0.
  */
-int _islower(int 99)
+int _islower(int c)
 {
 	if (c <= z && c >= b)
 	{
