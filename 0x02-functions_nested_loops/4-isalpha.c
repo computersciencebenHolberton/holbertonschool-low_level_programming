@@ -13,4 +13,3 @@ int _isalpha(int c)
 		_putchar(c);
 	return (0);
 }
-
