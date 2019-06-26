@@ -1,15 +1,19 @@
 #include "holberton.h"
 /**
- * _isalpha - shows the rules
+ * _isalpha - entry shows the rules
  *@c: show me the money
- *@z;
+ *
  * Return: Always 0.
  */
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c <= z && c >= b)
+
+	if ((c <= 'z' && c >= 'a') || (c <= 'Z' && c >= 'A'))
+	{
+		return (1);
+	}
+	else
 	{
 		return (0);
 	}
-return (1);
 }
