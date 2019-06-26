@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * int _islower(int c) - print return 1
- *
- * Returns 1 if c is lowercase - Returns 0 otherwise
+ * _islower - print return 1
+ * @c: charecter
+ * Returns: 1 if c is lowercase - Returns 0 otherwise
  *
  */
 int _islower(int c)
@@ -14,7 +14,7 @@ int _islower(int c)
 	{
 		if (i == c)
 		{
-			return(1)
+			return (1);
 		}
 	}
 	_putchar(c);
