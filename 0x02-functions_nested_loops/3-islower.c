@@ -9,7 +9,6 @@
 int _islower(int c)
 {
 	char i;
-	int c = 'a';
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
