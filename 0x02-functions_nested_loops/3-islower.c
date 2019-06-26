@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * int _islower(int c) - print return 1
  *
- * Return: Always 0.
+ * Returns 1 if c is lowercase - Returns 0 otherwise
+ *
  */
 int _islower(int c)
 {
@@ -13,7 +14,7 @@ int _islower(int c)
 	{
 		if (i == c)
 		{
-			
+			return(1)
 		}
 	}
 	_putchar(c);
