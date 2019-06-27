@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *int mul - check for lower digit
+ *mul - check for lower digit
  *@a: a int
  *@b: c int
  * Return: Always 1.
