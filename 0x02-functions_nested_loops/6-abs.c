@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - the front door
+ *_abs - this one not good
+ *
  *@n: variable
  * Return: Always 0.
  */
