@@ -1,21 +1,13 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * reset_to_98  - lets play with p[ointers 
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 void reset_to_98(int *n)
 {
 
-	int *p = &n;
-
-	_putchar(n);
-
+	* A = * B;
+	_putchar(A);
 }
-
-
-
-
-
-Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
