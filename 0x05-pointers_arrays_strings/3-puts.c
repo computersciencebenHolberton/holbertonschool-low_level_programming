@@ -1,13 +1,20 @@
-#include "holberton"
+#include "holberton.h"
 
 /**
- * void _puts - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * void _puts - the view
+ * @str:
+ * Return:
  */
-void _puts(char *str)
-for (i = 0; s[i] != '\0'; i++)
+_puts(char *str)
 {
-  _putchar('\n');
+int i;
+
+for (i = 0; str[i] != '\0'; i++)
+{
+_putchar(str[i]);
+}
+{
+_putchar('\n');
 }
 return (i);
+}
