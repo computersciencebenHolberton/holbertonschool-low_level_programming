@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int _strlen(char *s)
+void swap_int(int *a, int *b)
 {
 *a = *b
 *b = c
