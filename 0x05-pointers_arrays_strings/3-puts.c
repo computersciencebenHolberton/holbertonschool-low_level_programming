@@ -3,7 +3,7 @@
 /**
  * _puts - the view
  * @str:
- * 
+ *
  */
 void _puts(char *str)
 {
