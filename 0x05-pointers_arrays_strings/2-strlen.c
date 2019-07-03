@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * int _strlen(char *s) - the way to use it
+ * _strlen - the way to use it
  * @s: thu
  * Return: Always 0.
  */
