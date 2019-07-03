@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * void _puts - the view
+ * _puts - the view
  * @str:
- * Return:
+ * 
  */
-_puts(char *str)
+void _puts(char *str)
 {
 int i;
 
