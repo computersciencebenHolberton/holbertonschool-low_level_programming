@@ -1,0 +1,23 @@
+/**
+ * _atoi - ascii to int (copy of atoi)
+ *
+ * @s: string
+ * Return: number
+ */
+int _atoi(char *s){
+  char sign = 1;
+  int ret = 0;
+
+  while(1)
+    if (*s == '-')
+      sign = -sign;
+    else {
+      while(*s >= '0' && *s <= '9')
+	ret = ret * 10 + (*s++ - '0') * sign;
+      return ret;
+    }
+}
+
+void main(void){
+  printf("%d\n",_atoi("2314"));
+}
