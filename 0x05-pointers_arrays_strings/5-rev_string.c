@@ -1,0 +1,23 @@
+#include "holberton.h"
+/**
+ * rev_string - strings
+ *
+ * @s:
+ *
+ */
+void rev_string(char *s)
+{
+char *x = s;
+char *y = s;
+char c;
+for (; *x != '\0'; x++)
+{}
+x = x - 1;
+for (; x >= y; y++)
+{
+c = *x;
+*x = *y;
+*y = c;
+x--;
+}
+}
