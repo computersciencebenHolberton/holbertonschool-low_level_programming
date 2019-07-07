@@ -1,23 +1,28 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: 
+ * _strncat - check the code for Holberton School students.
+ * @i:
+ * @m:
+ * Return: dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-  char *p;
+  char *i = dest;
+  int m;
+  m = 0;
 
-  p = dest;
-  for (; *dest != '\0'; dest++)
-    ;
-  for (; *src != '\0'; src++)
+  while (*i != '\0')
     {
-      (*dest = *src);
-      dest++;
+      i++;
     }
-  (*dest = '\0');
-  return (p);
-}
+  while (*src != '\0' && m < n)
+    {
+      *i = *src;
+      i++;
+      src++;
+      m++;
+    }
 
+  return (dest);
+}
