@@ -1,4 +1,3 @@
-#include "holberton"
 #include <stdio.h>
 
 int main(void)
