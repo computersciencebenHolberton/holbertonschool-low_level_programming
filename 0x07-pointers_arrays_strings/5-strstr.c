@@ -14,13 +14,13 @@ while (*haystack != '\0')
 {
 if (*haystack == *needle)
 {
-return(0)
+return(heystack);
 }
 haystack++;
 }
 if (*haystack == *needle)
 {
-return (0);
+return (haystack);
 }
 return (0);
 }
