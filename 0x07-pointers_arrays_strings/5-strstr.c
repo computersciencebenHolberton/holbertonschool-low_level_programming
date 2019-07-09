@@ -22,5 +22,5 @@ if (*haystack == *needle)
 {
 return (needle);
 }
-return (0);
+return (needle);
 }
