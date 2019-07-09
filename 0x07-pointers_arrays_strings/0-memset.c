@@ -4,13 +4,13 @@
  * _memset - view
  * @s: the address of memory to print
  * @n: the size of the memory to print
- * @b:
+ * @b: the view
  * Return: (s)
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 
-while(n--)
+while (n--)
 {
 *(s + n) = b;
 }
