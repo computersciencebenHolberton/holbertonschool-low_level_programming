@@ -20,7 +20,7 @@ haystack++;
 }
 if (*haystack == *needle)
 {
-return (haystack);
-}
 return (needle);
+}
+return (0);
 }
