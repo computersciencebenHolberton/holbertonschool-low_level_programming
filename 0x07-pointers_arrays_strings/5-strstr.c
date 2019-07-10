@@ -2,25 +2,33 @@
 
 /**
  *_strstr - check the code for Holberton School students.
- *@haystack: th
- *@needle: the
+ *@s1: th
+ *@s2: the
+ *@b:tr
  * Return: Always 0.
  */
+int _strncmp(char *s1, char *s2, unsigned int b)
+{
+unsigned int j;
+
+ for (j = 0; j <= b && *s1 == *s2 && *s1 != '\0' && *s2 != '\0'; j++)
+{
+s1++;
+s2++;
+}
+return (j - b);
+}
 char *_strstr(char *haystack, char *needle)
 {
-if (*needle == '\0')
-return (haystack);
+unsigned int length;
+length = 0;
+while (needle[length] != '\0')
+length++;
 while (*haystack != '\0')
 {
-if (*haystack == *needle)
-{
-return(heystack);
-}
+if (_strncmp(haystack, needle, length) == 0)
+return (haystack);
 haystack++;
-}
-if (*haystack == *needle)
-{
-return (needle);
 }
 return (0);
 }
