@@ -1,7 +1,8 @@
 #include "holberton.h"
 
 /**
- *_strstr - check the code for Holberton School students.
+ *_strncmp - list
+ *
  *@s1: th
  *@s2: the
  *@b:tr
@@ -11,13 +12,20 @@ int _strncmp(char *s1, char *s2, unsigned int b)
 {
 unsigned int j;
 
- for (j = 0; j <= b && *s1 == *s2 && *s1 != '\0' && *s2 != '\0'; j++)
+for (j = 0; j <= b && *s1 == *s2 && *s1 != '\0' && *s2 != '\0'; j++)
 {
 s1++;
 s2++;
 }
 return (j - b);
 }
+/**
+ *_strstr - this
+ *@haystack: hgh
+ *@needle:kkk
+ *Return: p
+ */
+
 char *_strstr(char *haystack, char *needle)
 {
 unsigned int length;
