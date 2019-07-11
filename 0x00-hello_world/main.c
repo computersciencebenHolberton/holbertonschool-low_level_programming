@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main.s - this is how it works
+ * 
+ * Return: Always 0 (main.s)
  */
-int main(void)
+int main.s(void)
 {
-  return (0);
+  return (main.s);
 }
