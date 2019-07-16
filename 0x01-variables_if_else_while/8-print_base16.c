@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - number 8
- *@i: th
- *@n: thi
+ *
+ *
  * Return: Always 0
  */
 int main(void)
