@@ -5,13 +5,16 @@
  *_strdup -thi
  *@str:pointer
  *
- * Return: a pointer to the string dup
+ *Return: a pointer to the string dup
  */
 char *_strdup(char *str)
 {
 char *ret;
 int i, size;
 
+if (str == 0)
+return (NULL);
+size = 0;
 while (str[size] != '\0')
 {
 size++;
