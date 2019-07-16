@@ -20,7 +20,9 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 for (i = 0; s1[i] != '\0'; i++)
+;
 for (n = 0; s2[n] != '\0'; n++)
+;
 a = malloc((i * sizeof(*s1)) + (n * sizeof(*s2)) + 1);
 if (a == NULL)
 return (NULL);
