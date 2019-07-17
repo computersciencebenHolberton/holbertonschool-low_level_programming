@@ -1,17 +1,17 @@
 #include "holberton.h"
 #include <stdlib.h>
-
 /**
- *free_grid - do gertting it to work
- *@grid: the 2d array
- *@height: the number of arrays
- *Return
+ *free_grid - frees a 2d array
+ *@grid:array
+ *@height:height
  */
 void free_grid(int **grid, int height)
 {
-int n;
+int rnd;
 
-for (n = 0; n < height; n++)
-free(grid[n]);
+for (rnd = 0; rnd < height; rnd++)
+{
+free(grid[rnd]);
+}
 free(grid);
 }
