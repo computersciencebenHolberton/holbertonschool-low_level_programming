@@ -2,23 +2,28 @@
 #include <stdlib.h>
 
 /**
- *_calloc - calloc
- *@nmemb: size
- *@size: the size
- *
- *Return: Always
+ * _calloc - singed mem
+ * @nmemb:thi
+ * @size:size
+ * Return:NULL
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-unsigned int count;
-int *ptr;
+unsigned int loop1;
+void *ptr;
+
 if (nmemb == 0 || size == 0)
+{
 return (NULL);
-ptr = malloc(nmemb * size);
+}
+ptr = malloc(size * nmemb);
 if (ptr == NULL)
+{
 return (NULL);
-for (count = 0; count < nmemb; count++)
-ptr[count] = 0;
+}
+for (loop1 = 0; loop1 < nmemb * size; loop1++)
+{
+((char *)ptr)[loop1] = 0;
+}
 return (ptr);
 }
