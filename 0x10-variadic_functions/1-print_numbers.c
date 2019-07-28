@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdarg.h>
-
 /**
  *print_numbers - pnumbers
- *@n:int 
+ *@n:int
+ *@separator:thi
  *Return:sum
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
