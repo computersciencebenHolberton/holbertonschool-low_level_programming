@@ -2,14 +2,13 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
-/**                                                                            
+/**
  *print_all -arg
  *@format:types
- *Return: void                                                                
+ *Return: void
  */
 void print_all(const char * const format, ...)
 {
-
 va_list arguments;
 char *str1;
 int i;
