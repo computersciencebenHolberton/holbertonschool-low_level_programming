@@ -4,7 +4,7 @@
  *print_strings - thi
  *@separator:separator
  *@n:unsigned
- *va_list valist:list 
+ *va_list:list
  *Return: Always
  */
 void print_strings(const char *separator, const unsigned int n, ...)
