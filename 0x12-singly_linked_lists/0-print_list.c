@@ -1,9 +1,10 @@
-#include "lists.h"
 #include <stdio.h>
+#include "lists.h"
 /**
  *print_list - list
- *@h: first
- *Return: nodes
+ *@h:first
+ *
+ *Return:nodes
  */
 size_t print_list(const list_t *h)
 {

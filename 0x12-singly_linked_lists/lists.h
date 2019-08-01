@@ -1,10 +1,9 @@
-#ifndef HOLBERTON_H_
-#define HOLBERTON_H_
-#include <stddef.h>
-#include <stdlib.h>
-#include <string.h>
+#ifndef _HOL_
+#define _HOL_
 #include <stdio.h>
-#include "lists.h"
+#include <string.h>
+#include <stdlib.h>
+
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
