@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  *print_listint - list elements 
  *@h:type
