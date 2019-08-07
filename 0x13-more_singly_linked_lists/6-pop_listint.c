@@ -2,7 +2,7 @@
 /**
  *pop_listint - it return value
  *@head:first
- *Return:
+ *Return:0
  */
 int pop_listint(listint_t **head)
 {
