@@ -1,17 +1,14 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- *print_listint -list elements
- *@h:type
- *Return:Number nodes
+ *print_listint -list
+ *@h:first
+ *Return:numbers in list
  */
 size_t print_listint(const listint_t *h)
 {
-int m;
-for (m = 0; h != NULL; m++)
-{
-printf("%d\n", h->n;
-h = h->next;
-}
-return (m);
+if (!h)
+return (0);
+printf("%d\n", h->n);
+return (1 + print_listint(h->next));
 }
