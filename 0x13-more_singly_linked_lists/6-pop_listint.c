@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *pop_listint -it return value
+ *pop_listint - it return value
  *@head:first
  *Return:
  */
