@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  *get_nodeint_at_index -node in list
- *@head:points to first 
+ *@head:points to first
  *@index:item
  *Return:point to index or NULL
  */
@@ -13,4 +13,3 @@ if (head)
 return (get_nodeint_at_index(head->next, index - 1));
 return (NULL);
 }
-
