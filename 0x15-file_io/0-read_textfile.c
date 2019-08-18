@@ -28,7 +28,7 @@ if (m < 0)
 {m = 0;
 goto free;
 }
-if (write(STDOUT_FILENO, data, n) != m)
+if (write(STDOUT_FILENO, data, m) != m)
 {
 m = 0;
 goto free;
